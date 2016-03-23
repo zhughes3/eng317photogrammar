@@ -8,7 +8,6 @@
  * @author Zachary Hughes <zhughes3@gmail.com>
  * Date: 3/22/2016
  * Time: 2:26 PM
- * Description: Something is wrong here.
  */
 
 // define variables and set to empty values
