@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>English 317 XML Creator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<!--
+Date of first interview
+Location of interview
+Name of Interviewee
+Changed name of interviewee
+Occupation
+Gender
+Race of interviewee
+If don’t know write, not given
+Interviewer
+Race of interviewer
+Gender of interviewer
+Revisers
+Race of revisers
+Gender of reviser
+Title of life history
+Subjects
+-->
+<form action = 'form-submit.php' method = 'POST'>
+    <fieldset>
+        <legend>TEI Header</legend>
+        <label>Date of first interview: <input name = 'date'></label> <br>
+        <label>Location of interview: <input name = 'location'></label> <br>
+        <label>Title of Life History: <input name = 'title'></label> <br>
+
+        <fieldset>
+            <legend>Interviewee</legend>
+            <label>Person interviewed: <input name = 'interviewee'></label> <br>
+            <label>Alternate Name of Person Interviewed: <input name = 'altIntervieweeName'></label> <br>
+            <label>Occupation: <input name = 'occupation'></label> <br>
+            <fieldset>
+                <legend>Gender</legend>
+                <label><input type = 'radio' name = 'intervieweeGender' value = 'male'>Male</label> <br>
+                <label><input type = 'radio' name = 'intervieweeGender' value = 'female'>Female</label> <br>
+                <label><input type = 'radio' name = 'intervieweeGender' value = 'other'>Other</label> <br>
+            </fieldset>
+            <label>Race of Interviewee: <input name = 'intervieweeRace'></label> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Interviewer</legend>
+            <label>Interviewer: <input name = 'interviewer'></label> <br>
+            <label>Race of Interviewer: <input name = 'interviewerRace'></label> <br>
+            <fieldset>
+                <legend>Gender</legend>
+                <label><input type = 'radio' name = 'interviewerGender' value = 'male'>Male</label> <br>
+                <label><input type = 'radio' name = 'interviewerGender' value = 'female'>Female</label> <br>
+                <label><input type = 'radio' name = 'interviewerGender' value = 'other'>Other</label> <br>
+            </fieldset>
+        </fieldset>
+
+        <fieldset>
+            <legend>Reviser</legend>
+            <label>Reviser: <input name = reviser'></label> <br>
+            <label>Race of Reviser: <input name = reviserRace'></label> <br>
+            <fieldset>
+                <legend>Gender</legend>
+                <label><input type = 'radio' name = 'reviserGender' value = 'male'>Male</label> <br>
+                <label><input type = 'radio' name = 'reviserGender' value = 'female'>Female</label> <br>
+                <label><input type = 'radio' name = 'reviserGender' value = 'other'>Other</label> <br>
+            </fieldset>
+        </fieldset>
+
+        <label>Subjects: <textarea name="subjects" rows="10" cols="30">Enter subject here separated by commas.</textarea>
+        </label>
+    </fieldset>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<TEI xmlns = "http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	    <dateOfFirstInterview> 1991-05-15 </dateOfFirstInterview>
+	    <locationOfInterview> Chapel Hill, NC </locationOfInterview>
+	    <nameOfInterviewee> Zachary Hugheds </nameOfInterviewee>
+	    <changedNameOfInterviewee> Brian </changedNameOfInterviewee>
+	    <occupation> Laborer </occupation>
+	    <gender> male </gender>
+	    <raceOfInterviewee> wWite </raceOfInterviewee>
+	    <interviewer> Hellopo </interviewer>
+	    <raceOfInterviewer> Black </raceOfInterviewer>
+	    <genderOfInterviewer> female </genderOfInterviewer>
+	    <revisers> Hello </revisers>
+	    <raceOfRevisers> Black </raceOfRevisers>
+	    <genderOfReviser> male </genderOfReviser>
+	    <titleOfLifeHistory> Hello </titleOfLifeHistory>
+	    <subjects> subject, subject 2 </subjects>
+	</teiHeader>
+</TEI>
