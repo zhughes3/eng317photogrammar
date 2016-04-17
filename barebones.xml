@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<titleoflifehistory>
+				
+			</titleoflifehistory>
+			<date> <!-- yyyy-mm-dd -->
+
+			</date>
+
+			<location>
+
+			</location>
+
+			<coordinates> <!-- long, lat -->
+
+			</coordinates>
+
+			<interviewee>
+				<nameofinterviewee></nameofinterviewee>
+				<occupationofinterviewee></occupationofinterviewee>
+				<genderofinterviewee></genderofinterviewee>
+				<race></race>
+			</interviewee>
+
+			<writer>
+				<nameofwriter>  </nameofwriter>
+				<genderofwriter></genderofwriter>
+			</writer>
+			
+			<reviser>
+				<nameofreviser></nameofreviser>
+				<genderofreviser> </genderofreviser>
+			</reviser>
+			
+			<respStmt>
+				<resp> Text encoded by</resp>
+				<name>Zachary Hughes</name>
+			</respStmt>
+
+		</titleStmt>
+
+		<publicationStmt>
+			<publisher> 
+				University of North Carolina at Chapel Hill Libraries, Southern Historical Collection 
+			</publisher>
+			<pubPlace> 
+				University of North Carolina at Chapel Hill, 
+			</pubPlace>
+			<date> 
+				2016 
+			</date>
+			<availability>
+				<p> © This work is the property of the University of North Carolina at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text. </p>
+			</availability>
+		</publicationStmt>
+
+		<sourceDesc>
+			<biblFull>
+				<titleStmt>
+					<title type="title page">
+						<!--[USE EXACTLY THE SAME TITLE USED IN THE FINDING AID BUT LET US KNOW IF THERE IS A MISTAKE]-->
+					</title>
+					<author>
+						<!--[USE EXACTLY THE SAME TITLE USED IN THE FINDING AID BUT LET US KNOW IF THERE IS A MISTAKE]-->
+					</author>
+					<reviser> </reviser>
+				</titleStmt>
+				<extent>
+					<!--[NUMBER OF PAGES]-->
+				</extent>
+				<publicationStmt>
+					<pubPlace>
+						University of North Carolina, Chapel Hill
+					</pubPlace>
+					<publisher>
+						Federal Writers' Project of the Works Progress Administration [Southern Region]
+					</publisher>
+					<date>
+						<!--USE EXACT DATE INCLUDING MONTH, DAY AND YEAR -->
+					</date>
+					<bibl>
+						<!--(follow this exampe) Abner, Massengill, and Sadler (interviewers): The Knitter, Folder 280 in the Federal Writers' Project papers #3709, Southern Historical Collection, The Wilson Library, University of North Carolina at Chapel Hill. -->
+					</bibl>
+				</publicationStmt>
+				<notesStmt>
+					<note anchored="yes"> This electronic edition has been transcribed from a digital scan of the original held in the Southern Historical Collection at the University of North Carolina, Chapel Hill.
+					</note>
+				</notesStmt>
+			</biblFull>
+		</sourceDesc>
+
+		<physDesc>
+			<add>
+				<p>
+					<!-- Describe the physical document itself -->
+					There are many handwritten editorial notes in the margins, 
+				</p>
+			</add>
+		</physDesc>
+
+		<encodingDesc>
+			<projectDesc>
+				<p> 
+					This project originally began as a collaboration between the University of North Carolina Chapel Hill's Southern Historical Collection, UNC Libraries, Yale University's Photogrammar Project, and Dr. Courtney Rivard's English 317 Networked Composition Course during the 2016 Spring semester. English 317 students designed the metadata schema for the Life Histories in order to put into practice theories of rhetoric and information infrastructure that they had learned and to mark up these Life Histories so that they could be integrated into the existing Photogrammar map which visualizes the photographs taken by the United States Farm Security Administration and Office of War Information. When this project is complete and all Life Histories have been integrated into the project, the result will be a platform that allows users to search and visualize what life was like during the Great Depression in way that was never before possible.
+				</p>
+			</projectDesc>
+			<styleDefDecl scheme="css" schemeVersion="2.1"/>
+			<tagsDecl>
+ 				<rendition xml:id="center">text-align: center;</rendition>
+ 				<rendition xml:id="underline">text-decoration: underline;</rendition>
+ 				<rendition xml:id="linethrough">text-decoration: line-through;</rendition>
+			</tagsDecl>
+		</encodingDesc>
+
+		<editorialDecl>
+			<interpretation><p>The gender of interviewees, writers, and revisers was inferred by using context clues such as in-text pronouns or occupations. Gender was not capitalized throughout.</p></interpretation>
+			<interpretation><p>When pieces of metadata were missing or unavailable, the category was left blank, not null or void.</p></interpretation>
+			<interpretation><p>Race was used as a proper noun throughout (example/ Black, White).
+			</p></interpretation>
+			<interpretation><p>Conventional English grammar rules were used throughout.
+			</p></interpretation>
+			<interpretation><p></p></interpretation>
+			<interpretation><p></p></interpretation>
+			<interpretation><p></p></interpretation>
+			<interpretation><p></p></interpretation>
+			<interpretation><p></p></interpretation>
+		</editorialDecl>
+	</fileDesc>
+</teiHeader>
+
+<text>
+	<front></front>
+	<body></body>
+
+</text>
+
+</TEI>

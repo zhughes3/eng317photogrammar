@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<titleoflifehistory>
+				A Race Man Th'ough an Th'ough
+				</titleoflifehistory>
+				<date>
+					<!-- yyyy-mm-dd -->
+				1939-05-03
+				</date>
+				<location>
+			435 W Stonewall St Charlotte North Carolina
+				</location>
+				<geoDecl>
+					<!-- lat , long -->
+				35.225801 , -80.85078299999998
+				</geoDecl>
+				<interviewee>
+					<nameofinterviewee>Ned Davis</nameofinterviewee>
+					<occupationofinterviewee> beauty shop owner </occupationofinterviewee>
+					<genderofinterviewee>male</genderofinterviewee>
+					<raceofinterviewee>Black
+    				African American</raceofinterviewee>
+				</interviewee>
+				<writer>
+					<nameofwriter>Cora Lee Bennett</nameofwriter>
+					<raceofwriter>Black
+    				African American</raceofwriter>
+					<genderofwriter>female</genderofwriter>
+				</writer>
+				<reviser>
+					<nameofreviser>Mary R. Northrop</nameofreviser>
+					<genderofreviser>female</genderofreviser>
+				</reviser>
+				<respStmt>
+					<resp> Text encoded by</resp>
+					<name>Zachary Hughes</name>
+				</respStmt>
+			</titleStmt>
+
+			<publicationStmt>
+				<publisher> University of North Carolina at Chapel Hill Library
+				</publisher>
+				<pubPlace> University of North Carolina at Chapel Hill
+				</pubPlace>
+				<date> 2016 
+				</date>
+				<availability status="unknown">
+					<p>  The Library of Congress is not aware of any copyright in the documents in this collection. As far as is known, the documents were written by U.S. Government employees. Generally speaking, works created by U.S. Government employees are not eligible for copyright protection in the United States, although they may be under copyright in some foreign countries. The persons interviewed or whose words were transcribed were generally not employees of the U.S. Government. Privacy and publicity rights may apply. </p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblFull>
+					<titleStmt>
+						<title type="title page">A Race Man Th'ough an Th'ough</title>
+						<author>Cora Lee Bennett</author>
+						<reviser>Mary R. Northrop</reviser>
+					</titleStmt>
+					<extent>18 pages</extent>
+					<publicationStmt>
+						<pubPlace>University of North Carolina at Chapel Hill</pubPlace>
+						<publisher>Federal Writers' Project of the Works Progress Administration [Southern Region]</publisher>
+						<date>1939-05-03</date>
+						<bibl><!-- taken from main library site-->
+						Bennett and Northrop (interviewers): "A Race Man Th'ough and Th'ough", Folder 293 in the Federal Writers' Project papers #3709, Southern Historical Collection, The Wilson Library, University of North Carolina at Chapel Hill. 
+						</bibl>
+					</publicationStmt>
+					<notesStmt>
+						<note anchored="yes">  
+						This electronic edition has been transcribed from a digital scan of the original held in the Southern Historical Collection at the University of North Carolina, Chapel Hill.
+						</note>
+					</notesStmt>
+				</biblFull>
+			</sourceDesc>
+
+			<physDesc>
+				<add>
+					<p>
+						<!-- Describe the physical document itself -->
+					There are many editorial handwritten notes in the margins, together with some that comment on the quality of the life history. These were likely written by the reviser, and some have initials next to comments. All marginalia is tagged nearest its original location in the text. 
+					</p>
+				</add>
+			</physDesc>
+
+			<encodingDesc>
+				<projectDesc>
+					<p> 
+					This project originally began as a collaboration between the University of North Carolina Chapel Hill's Southern Historical Collection, UNC Libraries, Yale University's Photogrammar Project, and Dr. Courtney Rivard's English 317 Networked Composition Course during the 2016 Spring semester. English 317 students designed the metadata schema for the Life Histories in order to put into practice theories of rhetoric and information infrastructure that they had learned and to mark up these Life Histories so that they could be integrated into the existing Photogrammar map which visualizes the photographs taken by the United States Farm Security Administration and Office of War Information. When this project is complete and all Life Histories have been integrated into the project, the result will be a platform that allows users to search and visualize what life was like during the Great Depression in way that was never before possible.
+					</p>
+				</projectDesc>
+				<editorialDesc>
+				<interpretation> 
+					<p> The gender of interviewees, writers, and revisers was inferred by using context clues such as in-text pronouns or occupations. Gender was not capitalized throughout. </p>
+				</interpretation>
+				<interpretation>					
+					<p>When pieces of metadata were missing or unavailable, the category was left blank, not null or void.</p>
+				</interpretation>
+				<interpretation>
+					<p>Race was used as a proper noun throughout (example/ Black, White).</p>
+				</interpretation>
+				<interpretation>
+					<p>Conventional English grammar rules were used throughout.</p>
+				</interpretation>
+				<interpretation>
+					<p>When widow is given as occupation of the interviewee, an additional occupational tag is added indicating the woman’s status as unemployed.</p>
+				</interpretation>
+				<interpretation>
+					<p>For the geoDecl, coordinates are extracted using the Google Maps software for the locations given by the life history. Coordinates are listed as (latitude, longitude) to match the Google Maps’ format. If no exact location is given, an approximation is made in order to improve the accessibility of search.</p>
+				</interpretation>
+				<interpretation>
+					<p>
+						In text tags include geolocations, changed names, occupations, and dates. Tag geolocation with the tag 'geoDecl' and use lat, long format. Tag changed names with the tag 'changedname'. Tag occupations with the tag 'occupation'. Tag dates with the tag 'date' (if the full date is given use the format when=yyyy-mm-dd within the first tag, with quotes around the yyyy-mm-dd).
+					</p>
+				</interpretation>
+				<interpretation>
+					<p>If the life history contains a page describing categorical information in aligned columns, the mark-up will be tagged as tables, with corresponding number of rows and columns. If the life history contains one column of header information, the mark-up will be tagged with a rendition either left column or right column with the each line tagged separately.</p>
+				</interpretation>
+				<interpretation>
+					<p>This life history contains two sets of page numbers, one that matches to the number and order of the pages within the document, and another whose number sequence is unknown. The page number that belongs to the unknown sequence is marked as an added note, while the number corresponding to the number of pages in the document is treated as the page number used to mark page breaks.</p>
+				<correction>
+					<p>
+						When a term denoting a racial category is given, the internal text was left as it originally appears and the term is tagged with a contemporary term. When some racial categories have appropriate terms that are used interchangeably, both are given. For example, White and Caucasion.
+					</p>
+				</correction>
+				</editorialDesc>
+				<styleDefDecl scheme="css" schemeVersion="2.1"/>
+				<tagsDecl>
+					<rendition xml:id="center">text-align: center;</rendition>
+					<rendition xml:id="underline">text-decoration: underline;</rendition>
+					<rendition xml:id="strikethrough">text-decoration: line-through;</rendition>
+				</tagsDecl>
+			</encodingDesc>
+		</fileDesc>
+	</teiHeader>
+
+	<text>
+		<front> 
+			<pb n="3909"/>
+			<add>
+				<note place="top"> Excellent NC-20 </note>
+			</add>
+			<title rend="#underline">"A Race Man Th'ough an' Th'ough"</title>
+			<div id="changednametable"> 
+				<table rows="24" cols="2">
+					<row role="label">
+						<cell rend="#underline">Real Names</cell>
+						<cell rend="#underline">Changes Name</cell>
+					</row>
+					<row>
+						<cell>Gypsy Beauty Shops</cell>
+						<cell>Caravan Beauty Salons</cell>
+					</row>
+					<row>
+						<cell>Ned Davis</cell>
+						<cell>Vic Streeter</cell>
+					</row>
+					<row>
+						<cell>Darlington County</cell>
+						<cell>DeRamus County</cell>
+					</row>
+					<row>
+						<cell>Hartsville</cell>
+						<cell>DeWeese</cell>
+					</row>
+					<row>
+						<cell>Eugene</cell>
+						<cell>Ralph</cell>
+					</row>
+					<row>
+						<cell>Rock Hill</cell>
+						<cell>Desmond</cell>
+					</row>
+					<row>
+						<cell>Mrs. Bass</cell>
+						<cell>Sewell</cell>
+					</row>
+					<row>
+						<cell>Annie</cell>
+						<cell>Lily</cell>
+					</row>
+					<row>
+						<cell>Cap'n Johnson</cell>
+						<cell>Cap'n Tucker</cell>
+					</row>
+					<row>
+						<cell>Mr. Matthews</cell>
+						<cell>Mr. Belk</cell>
+					</row>
+					<row>
+						<cell>Mrs. J. A. Barber</cell>
+						<cell>Mrs. C. W. Thornton</cell>
+					</row>
+					<row>
+						<cell>Ora Lee Springs</cell>
+						<cell>Ila May Brevard</cell>
+					</row>
+					<row>
+						<cell>Mr. Harrison</cell>
+						<cell>Mr. Douglas</cell>
+					</row>
+					<row>
+						<cell>George</cell>
+						<cell>Will</cell>
+					</row>
+					<row>
+						<cell>Aunt Cinda</cell>
+						<cell>Aunt Celie</cell>
+					</row>
+					<row>
+						<cell>Courtland, N. Y.</cell>
+						<cell>Wiley's Landing</cell>
+					</row>
+					<row>
+						<cell>Mildred Kennedy</cell>
+						<cell>Mabel Langford</cell>
+					</row>
+					<row>
+						<cell>Dr. Twitty</cell>
+						<cell>Dr. Oates</cell>
+					</row>
+					<row>
+						<cell>Charlotte</cell>
+						<cell>Riverton</cell>
+					</row>
+					<row>
+						<cell>Sergeant Pitts</cell>
+						<cell>Sergeant Grice</cell>
+					</row>
+					<row>
+						<cell>Mr. Alexander</cell>
+						<cell>Mr. Davidson</cell>
+					</row>
+					<row>
+						<cell>Gastonia</cell>
+						<cell>Latonia</cell>
+					</row>
+					<row>
+						<cell>Baby Face Skin Tonic</cell>
+						<cell>Peachbloom</cell>
+					</row>
+				</table>
+			</div>
+			<pb n="3910"/>
+			<head rend = "left column">
+				<l>
+					<date when="1939-05-03">May 3, 1939</date>
+				</l>
+				<!-- how can I get (Negro) to be underlined -->
+				<l>
+					<person>Ned Davis</person> (Negro) </l>
+				<!-- should I somehow transcribe the following as an address
+					similar to how i have transcribed person and date ?? -->
+				<l>435 W. Stonewall St.,</l>
+				<l>Charlotte, N.C.</l>
+				<l>Beauty Shop Owner</l>
+				<l>
+					<person>Cora Lee Bennett</person>, writer<note>(Negro)</note>
+				</l>
+				<l>
+					<person>Mary R. Northrop</person>, reviser</l>
+				<title>
+					<note rend="#underline">"A Race Man Th'ough an' Th'ough"</note>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p>"Lady, I'll tell you ev'ything. Ev'y single thing!
+			When I gits started talkin' I don't know how to stop!" Vic
+			began to laugh and dance-- a high-pitched cackle and a
+			standstill swaying. He slapped his hands together, cracked
+			his knuckles, blinked and winked his eyes. All the time he
+			talked he slapped, cracked, blinked, and winked.</p>
+			<!-- note that blue ensemble was crossed out and written over with clothing -->
+			<p>His white apron was filthy with hair oils, tonics and
+			straightener, but under that his clothing was impeccable
+			even to shirt, socks, and tie. His very long hair had been
+			first skillfully straightened then waved in a loose geometrio
+			marcel, the work of his expert shop assistants, whom he had
+			trained.</p>
+			<p>The shop--headquarters of the chain of Caravan Beauty
+			Salons--was unpretentious. The desk was a packing box under
+			a cover of tacked-on cretonne, and the only object on it was
+			an old small radio. A home-made shelf, set crooked, a pay
+			telephone, and several picture calendars decorated the
+			walls, but the two closet doors were brilliantly painted
+			with intricate designs. These, a hatrack, and a heavy
+			smell of tar used in Vic's hair preparations, were the
+			room's only permanent fixtures.</p>
+			<p>It was early and the shop was not busy so Tic brought
+			in chairs from the driers.</p>
+			<p>"Now in the first place I wasn't christened Vic. My
+			real name is Invictus. I was born in <placename>DeRamus County, DeWeese, South Carolina</placename>, <date when="1987-08-13">August 13, 1897</date>. I was the only child that I know of because my brother Ralph died at the age of two, you see. My father was what you call a sharecropper. My mother died when I was three years old and for five years my grandma took care of me."</p>
+			<p>He grinned and slapped his hands together. "I can
+			remember how she use-ta punish me. She made me 'crack'
+			her head. In those days everybody had sump'n in they hair.</p>
+			<p>"But my father married agin to a lady from the city
+			and then we moved to <placename>Desmond, South Carolina</placename>. Now this wife was different from my papa and was a cateress. She started me to school and I went to school till I was in the third
+			grade and that's as far as I ever got. But let me tell you
+			this what happened one day at school. We use-ta change
+			lunch wif each other at school. But most of the time I'd
+			be done ate my lunch up when I got to school and this mornin'
+			I had ate every thing up but some crumbs in my pockets;
+			didn't have nothin' to start with but some biscuits and
+			fried fat pork. And the little boy I was gonna change with
+			had sweet 'tater and biscuits with p'serves and butter in 'em.
+			Well, he ast me what I had and I said, 'What you got?'</p>
+			<p>"He answered, 'You see what I got. Where's </p>
+		</body>
+		<!-- pg 2 paragraph 3-->
+	</text>
+
+</TEI>
